@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:opsz,wght@5..1200,300&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e0d1ed;
+  height: 100vh;
+  
+}
+
+.text-box {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border: 1px solid #0c0000;
+  background-color: #e7acec;
+
+}
+
+.espacamento {
+  margin-right: 50px;
+  margin-left: 10%;
+  height: 500px;
+
+}
+
+.espacamento-coracao {
+  margin-right: 50px;
+  margin-left: 11%;
+
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+
+  background: #ae52aa;
+  height: 8vh;
+  padding: 5px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+.div-principal {
+
+  display: flex;
+  margin-right: 100px;
+
+}
+
+.div-secundaria {
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+
+  text-align: center;
+  flex: 1;
+
+
+}
+
+.div-secundaria:first-child {
+  margin-left: 50px;
+  margin-top: 30px;
+
+}
+
+.div-terceira {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 650px;
+  text-align: center;
+
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 24px;
+}
+
+
+/* Estilos para o footer */
+footer {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  ;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  /* Ajuste a altura conforme necessário */
+  background-color: #f2f2f2;
+  margin: 0 !important;
+  padding: 0;
+}
+/* Como Ajudar */
+.como-ajudar{
+  margin-top: 30px;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  text-align: center;
+
+}
+.sinais{
+  margin-top: 30px;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  text-align: center;
+
+}
+.tipos{
+  margin-top: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+.medium-text-box{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  border: 1px solid #0c0000;
+  background-color: #e7acec;
+  width: 600px;
+}
+.div-secundaria-espacamento{
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+  margin-top: 50px;
+  margin-right: 300px;
+  text-align: center;
+  flex: 1;
+}
+.div-secundaria-img{
+  margin-top: 50px;
+  margin-left: 200px;
+  flex: 1;
+}
+.tamanho-img{
+  height: 200px;
+  width:  200px;
+}
+.text-box-tipos{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  width: 700px;
+  border: 1px solid #0c0000;
+  background-color: #e7acec;
+
+}
+.text-box-leis{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-left: 20px;
+  border: 1px solid #0c0000;
+  background-color: #e7acec;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tipos-leis{
+  margin-top: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  text-align: center;
+}
